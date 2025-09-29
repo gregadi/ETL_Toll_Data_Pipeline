@@ -12,3 +12,12 @@ This project implements an ETL (Extract, Transform, Load) pipeline using **Apach
 - Consolidates data into a single unified file.
 - Loads the cleaned data into a staging area for downstream analytics.
 - Fully orchestrated using **Apache Airflow** with `BashOperator`.
+
+## DAG Tasks
+- Unzip Data – Extract compressed files.
+- Extract CSV Data – Read and process CSV files.
+- Extract TSV Data – Read and process TSV files.
+- Extract Fixed-Width Data – Read and process fixed-width files.
+- Consolidate Data – Merge all extracted data into a single file.
+- Transform Data – Clean and standardize the consolidated data.
+- Load Data – Save transformed data to the staging area.
